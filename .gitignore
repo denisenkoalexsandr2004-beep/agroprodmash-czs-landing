@@ -1,0 +1,11 @@
+# OS / editor junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+*~
+.vscode/
+.idea/
+
+# Сборочный артефакт единого файла (генерируется build_standalone.py в родительской папке)
+/Лендинг_ЦЗС_Текстиль.html
