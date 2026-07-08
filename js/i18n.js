@@ -15,7 +15,7 @@ window.I18N = {
   ru: {
     meta: { title: "Контракт Экспо — программа переговоров закупщиков и экспонентов на выставке «Агропродмаш 2026», Москва" },
     langName: "Русский",
-    nav: { about: "О программе", audience: "Для кого", how: "Как проходит", materials: "Материалы", faq: "Вопросы", contacts: "Сопровождение", cta: "Участвовать" },
+    nav: { about: "О программе", audience: "Для кого", how: "Как проходит", materials: "Материалы", faq: "Вопросы", contacts: "Поддержка", cta: "Участвовать" },
     hero: {
       badge1: "Агропродмаш 2026 · Москва", badge2: "B2B-переговоры на стендах",
       title: "Контракт", titleAccent: "Экспо",
@@ -141,7 +141,7 @@ window.I18N = {
         { q: "Где проходят переговоры?", a: "Прямо на стендах экспонентов — закупщик приходит к вам по персональному маршруту. Уходить со стенда не нужно." },
         { q: "Как я узнаю, кто и когда придёт?", a: "Платформа Сейл Трекер пришлёт примерное время визита и профиль участника. За ~15 минут до встречи мы дополнительно позвоним." },
         { q: "Что такое протокол встречи и суммы закупок?", a: "Итоги каждой встречи фиксируются на платформе Сейл Трекер: о чём договорились и на какие суммы закупок вышли. Это основа для предварительного договора." },
-        { q: "Остались вопросы — к кому обращаться?", a: "К кураторам программы «Контракт Экспо» (КВК «Империя Форум»). Контакты — в разделе «Сопровождение» ниже." }
+        { q: "Остались вопросы — к кому обращаться?", a: "К кураторам программы «Контракт Экспо» (КВК «Империя Форум»). Контакты — в разделе «Поддержка» ниже." }
       ]
     },
     reviews: {
@@ -155,7 +155,7 @@ window.I18N = {
       ]
     },
     contacts: {
-      eyebrow: "Сопровождение", title: "Персональное сопровождение участия",
+      eyebrow: "Поддержка", title: "Команда программы ответит на ваши вопросы",
       lead: "Не нашли ответ на сайте? Кураторы программы «Контракт Экспо» помогут разобраться и подготовиться к участию — и экспоненту, и закупщику. На связи по телефону и в Telegram.",
       people: [
         { name: "Марина Савельева", role: "Ивент-директор", org: "Контракт Экспо · Империя Форум", phone: "+7 911 000 8974", telegram: "@MarinaImperia" },
@@ -317,7 +317,7 @@ window.I18N = {
       ]
     },
     contacts: {
-      eyebrow: "支持", title: "参与全程陪同",
+      eyebrow: "支持", title: "项目团队为您解答",
       lead: "在网站上没找到答案？「Contract Expo」项目专员帮助参展商与采购商弄清并准备参与 —— 电话与 Telegram 随时联系。",
       people: [
         { name: "Marina Saveleva（玛丽娜·萨韦利耶娃）", role: "活动总监", org: "Contract Expo · Imperia Forum", phone: "+7 911 000 8974", telegram: "@MarinaImperia" },
@@ -479,7 +479,7 @@ window.I18N = {
       ]
     },
     contacts: {
-      eyebrow: "Support", title: "Personal support for your participation",
+      eyebrow: "Support", title: "The program team will answer your questions",
       lead: "Didn't find your answer on the site? The Contract Expo curators will help both exhibitors and buyers figure it out and prepare to take part — reachable by phone and Telegram.",
       people: [
         { name: "Marina Savelieva", role: "Event Director", org: "Contract Expo · Imperia Forum", phone: "+7 911 000 8974", telegram: "@MarinaImperia" },
