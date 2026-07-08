@@ -147,6 +147,21 @@
       rg.appendChild(card);
     });
 
+    // program components (маршрутный лист / встречи / бизнес-гид)
+    var cpg = document.getElementById("componentsGrid");
+    if (cpg) {
+      cpg.innerHTML = "";
+      var cpIcons = ["i-pin", "i-calendar", "i-handshake"];
+      (get(dict, "components.items") || []).forEach(function (m, i) {
+        var card = el("article", "material reveal");
+        card.innerHTML =
+          '<span class="material__icon">' + svgIcon(cpIcons[i] || "i-check") + "</span>" +
+          "<h3>" + m.title + "</h3>" +
+          "<p>" + m.desc + "</p>";
+        cpg.appendChild(card);
+      });
+    }
+
     // materials cards (placeholder links)
     var mg = document.getElementById("materialsGrid");
     if (mg) {

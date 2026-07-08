@@ -49,6 +49,16 @@ window.I18N = {
         li3: "Протокол каждой встречи и суммы закупок фиксируются в реальном времени."
       }
     },
+    components: {
+      eyebrow: "Как устроена программа",
+      title: "Основные компоненты",
+      lead: "«Контракт Экспо» разработана для эффективного участия в выставке — и для закупщиков, и для экспонентов.",
+      items: [
+        { title: "Маршрутный лист", desc: "Индивидуальные планы для закупщиков и экспонентов — оптимизируют время на выставке." },
+        { title: "Запланированные встречи", desc: "Целевые встречи с ключевыми участниками, назначенные заранее — для более глубокого делового взаимодействия." },
+        { title: "Бизнес-гид", desc: "Опытный гид ориентируется в выставке и помогает установить связи между закупщиками и экспонентами." }
+      ]
+    },
     results: {
       eyebrow: "Результаты формата",
       title: "Формат, который уже приносит контракты",
@@ -212,6 +222,16 @@ window.I18N = {
         li3: "每次会面的纪要与采购金额实时记录。"
       }
     },
+    components: {
+      eyebrow: "项目如何运作",
+      title: "核心组成",
+      lead: "「Contract Expo」旨在让采购商与参展商都能高效参展。",
+      items: [
+        { title: "路线单", desc: "为采购商与参展商制定个性化计划 —— 优化在展会的时间。" },
+        { title: "预先安排的会面", desc: "提前与关键参与者进行定向会面 —— 实现更深入的商务互动。" },
+        { title: "商务向导", desc: "经验丰富的向导熟悉展会，帮助采购商与参展商建立联系。" }
+      ]
+    },
     results: {
       eyebrow: "成效数据",
       title: "已在带来合同的模式",
@@ -374,6 +394,16 @@ window.I18N = {
         li2: "Buyer account: selecting exhibitors by category and a personal route.",
         li3: "The minutes of every meeting and purchase amounts are recorded in real time."
       }
+    },
+    components: {
+      eyebrow: "How the program works",
+      title: "Core components",
+      lead: "Contract Expo is designed for effective exhibition participation — for both buyers and exhibitors.",
+      items: [
+        { title: "Route sheet", desc: "Individual plans for buyers and exhibitors — to make the most of time at the exhibition." },
+        { title: "Pre-arranged meetings", desc: "Targeted meetings with key participants, arranged in advance — for deeper business interaction." },
+        { title: "Business guide", desc: "An experienced guide who knows the exhibition and helps connect buyers with exhibitors." }
+      ]
     },
     results: {
       eyebrow: "Proven results",
