@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title data-i18n="meta.title">Контракт Экспо — программа деловых встреч на выставке «Агропродмаш 2026», Москва</title>
-  <meta name="description" data-i18n="hero.slogan" content="Контракт Экспо — программа B2B-встреч между экспонентами выставки «Агропродмаш 2026» и стратегическими заказчиками отрасли. Переговоры о поставках прямо на стендах, Москва, Крокус Экспо.">
+  <title data-i18n="meta.title">Контракт Экспо — программа переговоров закупщиков и экспонентов на выставке «Агропродмаш 2026», Москва</title>
+  <meta name="description" data-i18n="hero.slogan" content="Контракт Экспо — специальная байерская программа выставки «Агропродмаш 2026». Стратегические закупщики отрасли ведут переговоры с экспонентами прямо на стендах по технологии Центра Закупок Сетей и на платформе Сейл Трекер. Москва, Крокус Экспо.">
 
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
@@ -17,8 +17,8 @@
   <!-- Open Graph (превью в Telegram / WhatsApp / соцсетях) -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Контракт Экспо · Агропродмаш 2026">
-  <meta property="og:title" content="Контракт Экспо — программа деловых встреч на выставке «Агропродмаш 2026»">
-  <meta property="og:description" content="Программа B2B-встреч между экспонентами и стратегическими заказчиками отрасли. Переговоры о поставках прямо на стендах. Москва, Крокус Экспо.">
+  <meta property="og:title" content="Контракт Экспо — переговоры закупщиков и экспонентов на «Агропродмаш 2026»">
+  <meta property="og:description" content="Специальная байерская программа выставки: стратегические закупщики ведут переговоры с экспонентами прямо на стендах. Технология Центра Закупок Сетей + платформа Сейл Трекер. Москва, Крокус Экспо.">
   <meta property="og:url" content="https://example.com/">
   <meta property="og:image" content="https://example.com/img/hero.jpg">
   <meta property="og:image:width" content="1280">
@@ -30,7 +30,7 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Контракт Экспо — Агропродмаш 2026, Москва">
-  <meta name="twitter:description" content="Программа прямых B2B-переговоров пищевой промышленности прямо на стендах выставки. Москва, Крокус Экспо.">
+  <meta name="twitter:description" content="Байерская программа: закупщики и экспоненты ведут переговоры прямо на стендах. Технология ЦЗС + платформа Сейл Трекер. Москва, Крокус Экспо.">
   <meta name="twitter:image" content="https://example.com/img/hero.jpg">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -74,8 +74,8 @@
 
     <nav class="nav" aria-label="Основная навигация">
       <a href="#about" data-i18n="nav.about">О программе</a>
-      <a href="#audience" data-i18n="nav.audience">Экспонентам</a>
-      <a href="#how" data-i18n="nav.how">Как участвовать</a>
+      <a href="#audience" data-i18n="nav.audience">Для кого</a>
+      <a href="#how" data-i18n="nav.how">Как проходит</a>
       <a href="#materials" data-i18n="nav.materials">Материалы</a>
       <a href="#faq" data-i18n="nav.faq">Вопросы</a>
       <a href="#contacts" data-i18n="nav.contacts">Сопровождение</a>
@@ -94,7 +94,7 @@
           <button class="lang__opt" data-lang="en" role="menuitem">English <small>EN</small></button>
         </div>
       </div>
-      <a href="#how" class="btn btn--primary" data-i18n="nav.cta">Как участвовать</a>
+      <a href="#how" class="btn btn--primary" data-i18n="nav.cta">Участвовать</a>
       <button class="burger" id="burger" aria-label="Меню"><svg aria-hidden="true"><use href="#i-menu"/></svg></button>
     </div>
   </div>
@@ -110,13 +110,13 @@
     </div>
     <nav>
       <a href="#about" data-close data-i18n="nav.about">О программе</a>
-      <a href="#audience" data-close data-i18n="nav.audience">Экспонентам</a>
-      <a href="#how" data-close data-i18n="nav.how">Как участвовать</a>
+      <a href="#audience" data-close data-i18n="nav.audience">Для кого</a>
+      <a href="#how" data-close data-i18n="nav.how">Как проходит</a>
       <a href="#materials" data-close data-i18n="nav.materials">Материалы</a>
       <a href="#faq" data-close data-i18n="nav.faq">Вопросы</a>
       <a href="#contacts" data-close data-i18n="nav.contacts">Сопровождение</a>
     </nav>
-    <a href="#how" class="btn btn--primary mobile-menu__cta" data-close data-i18n="nav.cta">Как участвовать</a>
+    <a href="#how" class="btn btn--primary mobile-menu__cta" data-close data-i18n="nav.cta">Участвовать</a>
   </div>
 </div>
 
@@ -130,21 +130,31 @@
     <div class="hero__copy">
       <div class="hero__badges reveal">
         <span class="chip chip--gold" data-i18n="hero.badge1">Агропродмаш · Москва</span>
-        <span class="chip chip--glass"><svg aria-hidden="true"><use href="#i-handshake"/></svg><span data-i18n="hero.badge2">B2B Meetings</span></span>
+        <span class="chip chip--glass"><svg aria-hidden="true"><use href="#i-handshake"/></svg><span data-i18n="hero.badge2">B2B-переговоры на стендах</span></span>
       </div>
       <h1 class="reveal" data-d="1"><span data-i18n="hero.title">Контракт</span> <span class="accent" data-i18n="hero.titleAccent">Экспо</span></h1>
-      <p class="hero__decoder reveal" data-d="1" data-i18n="hero.decoder">Программа деловых встреч на выставке «Агропродмаш 2026»</p>
+      <p class="hero__decoder reveal" data-d="1" data-i18n="hero.decoder">Специальная байерская программа для посетителей и экспонентов выставки «Агропродмаш 2026»</p>
       <p class="hero__slogan reveal" data-d="1" data-i18n="hero.slogan">Программа B2B-встреч между экспонентами выставки и стратегическими заказчиками отрасли.</p>
 
       <div class="hero__meta reveal" data-d="2">
         <div class="hero__meta-item">
           <svg aria-hidden="true"><use href="#i-calendar"/></svg>
-          <div><b data-i18n="hero.dateVal">[даты уточняются]</b><span data-i18n="hero.dateLabel">Дата</span></div>
+          <div><b data-i18n="hero.dateVal">29–30 сентября 2026</b><span data-i18n="hero.dateLabel">Даты программы</span></div>
         </div>
         <div class="hero__meta-item">
           <svg aria-hidden="true"><use href="#i-pin"/></svg>
           <div><b data-i18n="hero.placeVal">МВЦ «Крокус Экспо», Москва</b><span data-i18n="hero.placeLabel">Место</span></div>
         </div>
+      </div>
+
+      <div class="hero__role reveal" data-d="2">
+        <div class="hero__role-label" data-i18n="hero.roleLabel">Я участвую как:</div>
+        <div class="role-toggle role-toggle--onDark" id="roleToggle" role="group" aria-label="Роль">
+          <span class="role-toggle__pill" id="rolePill"></span>
+          <button class="role-toggle__btn" data-role="supplier" aria-pressed="true"><svg aria-hidden="true"><use href="#i-truck"/></svg><span data-i18n="hero.roleSupplier">Экспонент</span></button>
+          <button class="role-toggle__btn" data-role="buyer" aria-pressed="false"><svg aria-hidden="true"><use href="#i-store"/></svg><span data-i18n="hero.roleBuyer">Закупщик</span></button>
+        </div>
+        <p class="hero__role-hint" id="roleHint" data-i18n="hero.hintSupplier"></p>
       </div>
 
       <div class="hero__cta reveal" data-d="3">
@@ -205,16 +215,28 @@
 <section class="section audience" id="audience">
   <div class="container">
     <div class="audience__head reveal">
-      <span class="eyebrow" style="display:inline-flex" data-i18n="aud.eyebrow">Экспонентам</span>
-      <h2 class="section-title" data-i18n="aud.title">Что получает экспонент</h2>
+      <span class="eyebrow" style="display:inline-flex" data-i18n="aud.eyebrow">Для кого</span>
+      <h2 class="section-title" data-i18n="aud.title">Две стороны одной сделки</h2>
       <p class="section-lead" data-i18n="aud.lead"></p>
     </div>
+    <div class="audience__toggle reveal" data-d="1">
+      <div class="role-toggle" id="roleToggle2" role="group" aria-label="Роль">
+        <span class="role-toggle__pill" id="rolePill2"></span>
+        <button class="role-toggle__btn" data-role="supplier" aria-pressed="true"><svg aria-hidden="true"><use href="#i-truck"/></svg><span data-i18n="hero.roleSupplier">Экспонент</span></button>
+        <button class="role-toggle__btn" data-role="buyer" aria-pressed="false"><svg aria-hidden="true"><use href="#i-store"/></svg><span data-i18n="hero.roleBuyer">Закупщик</span></button>
+      </div>
+    </div>
 
-    <div class="aud-grid aud-grid--single">
+    <div class="aud-grid" id="audGrid" data-active="supplier">
       <article class="aud-card aud-card--supplier reveal">
         <div class="aud-card__icon"><svg aria-hidden="true"><use href="#i-truck"/></svg></div>
-        <h3 data-i18n="aud.supplier.title">Вы получаете</h3>
+        <h3 data-i18n="aud.supplier.title">Экспонентам</h3>
         <ul id="supplierList"></ul>
+      </article>
+      <article class="aud-card aud-card--buyer reveal" data-d="1">
+        <div class="aud-card__icon"><svg aria-hidden="true"><use href="#i-store"/></svg></div>
+        <h3 data-i18n="aud.buyer.title">Закупщикам</h3>
+        <ul id="buyerList"></ul>
       </article>
     </div>
   </div>
@@ -237,7 +259,7 @@
   <div class="container">
     <div class="how__grid">
       <div class="reveal">
-        <span class="eyebrow" data-i18n="how.eyebrow">Как участвовать</span>
+        <span class="eyebrow" data-i18n="how.eyebrow">Как проходит</span>
         <h2 class="section-title" data-i18n="how.title">Как проходит участие: шаг за шагом</h2>
         <p class="section-lead" style="margin-bottom:26px" data-i18n="how.lead"></p>
         <div class="steps" id="stepsList"></div>
