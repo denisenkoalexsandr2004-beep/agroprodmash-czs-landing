@@ -15,25 +15,25 @@ window.I18N = {
   ru: {
     meta: { title: "Контракт Экспо — программа переговоров закупщиков и экспонентов на выставке «Агропродмаш 2026», Москва" },
     langName: "Русский",
-    nav: { about: "О программе", audience: "Для кого", how: "Как проходит", materials: "Материалы", faq: "Вопросы", contacts: "Поддержка", cta: "Участвовать" },
+    nav: { about: "О программе", audience: "Для кого", how: "Как проходит", faq: "Вопросы", contacts: "Контакты", cta: "Участвовать" },
     hero: {
       badge1: "Агропродмаш 2026 · Москва", badge2: "B2B-переговоры на стендах",
       title: "Контракт", titleAccent: "Экспо",
       decoder: "Специальная байерская программа для посетителей и экспонентов выставки «Агропродмаш 2026»",
-      slogan: "Стратегические закупщики отрасли проводят эффективные переговоры с экспонентами прямо на их стенде — по технологии Центра Закупок Сетей и на платформе Сейл Трекер, где фиксируются протокол встречи и суммы закупок.",
+      slogan: "Стратегические закупщики отрасли проводят эффективные переговоры с экспонентами прямо на их стенде — по технологии Центра Закупок Сетей с платформой Сейл Трекер.",
       dateLabel: "Даты программы", dateVal: "29–30 сентября 2026",
       placeLabel: "Место", placeVal: "МВЦ «Крокус Экспо», Москва",
       formatLabel: "Формат", formatVal: "Переговоры на стендах",
       roleLabel: "Я участвую как:", roleSupplier: "Экспонент", roleBuyer: "Закупщик",
-      hintSupplier: "К вашему стенду приходят профильные стратегические закупщики отрасли. Матчмейкинг по вашей категории, переговоры прямо на стенде и фиксация протокола и сумм закупок на платформе Сейл Трекер.",
-      hintBuyer: "Персональный маршрут по стендам нужных вам категорий: эффективные переговоры с экспонентами и протокол каждой встречи с суммами закупок на платформе Сейл Трекер.",
+      hintSupplier: "Прямо на вашем стенде будут организованы переговоры со стратегическими заказчиками отрасли. Вам будет доступен личный кабинет с расписанием встреч и итоговыми протоколами.",
+      hintBuyer: "Вы получите персональный маршрут по нужным стендам и направлениям выставки в сопровождении эксперта-гида от организаторов. Вам будет доступен личный кабинет с расписанием встреч и итоговыми протоколами.",
       cta: "Как проходит участие", cta2: "Связаться с куратором"
     },
     facts: { items: [
       { num: "29–30 сен.", label: "Агропродмаш 2026 · Крокус Экспо, Москва" },
-      { num: "На стендах", label: "Переговоры прямо у экспонентов" },
-      { num: "Матчмейкинг", label: "Встречи по нужной категории продукции" },
-      { num: "Сейл Трекер", label: "Протокол встречи и суммы закупок" }
+      { num: "На стендах", label: "Все встречи проходят на стендах экспонентов, как на реальном предприятии" },
+      { num: "Матчмейкинг", label: "Ядро «Контракт Экспо» — уникальная система подбора нужных вам компаний и направлений" },
+      { num: "Сейл Трекер", label: "Все итоги, контакты и предложения — в личном кабинете каждого участника" }
     ]},
     about: {
       eyebrow: "О программе",
@@ -52,12 +52,12 @@ window.I18N = {
     results: {
       eyebrow: "Результаты формата",
       title: "Формат, который уже приносит контракты",
-      lead: "Технологию проводит КВК «Империя Форум». Совокупные результаты формата на деловых мероприятиях за последние сезоны:",
+      lead: "Организатор программы «Контракт Экспо» — КВК «Империя Форум», которая более 25 лет является лидером в отрасли нетворкинга. Совокупные результаты на деловых мероприятиях за последние сезоны:",
       items: [
-        { num: "3 500+", label: "переговоров на площадках формата" },
-        { num: "2 800+", label: "заключённых договоров" },
-        { num: "60%+", label: "встреч → предварительный договор" },
-        { num: "200+", label: "категорийных закупщиков" }
+        { num: "35 000", label: "переговоров на площадках формата" },
+        { num: "30 000", label: "предварительных контрактов" },
+        { num: "60–80%", label: "встреч превратились в контракты" },
+        { num: "2 000", label: "закупщиков в базе" }
       ],
       note: "Формат работает в 20+ сферах деятельности в России и странах СНГ."
     },
@@ -105,7 +105,7 @@ window.I18N = {
       steps: [
         { n: "01", title: "Регистрация и личный кабинет", text: "И экспоненты, и закупщики регистрируются на платформе Сейл Трекер и заводят личный кабинет — ответив на несколько коротких вопросов о компании и продукте." },
         { n: "02", title: "Профиль и подбор (матчмейкинг)", text: "Экспонент заполняет профиль и коммерческое предложение; закупщик указывает нужные категории. Система подбирает релевантные пары под конкретную продукцию." },
-        { n: "03", title: "Маршрут и тайминг", text: "Закупщик получает персональный маршрут по стендам, экспонент — график: кто и во сколько придёт (например: «12:15 — директор мясокомбината, интересуется технологиями мясопереработки»). Обе стороны подтверждают встречу." },
+        { n: "03", title: "Расписание переговоров", text: "Автоматически формируется расписание переговоров с учётом всех потребностей: закупщику — персональный маршрут по стендам, экспоненту — график визитов (кто и во сколько придёт). Обе стороны подтверждают встречу." },
         { n: "04", title: "Переговоры и протокол", text: "Переговоры проходят на стенде экспонента. Кто ведёт встречу — подготовленный сотрудник или сам руководитель. Итоги фиксируются на Сейл Трекер: протокол встречи и суммы закупок." }
       ],
       video: {
@@ -141,7 +141,7 @@ window.I18N = {
         { q: "Где проходят переговоры?", a: "Прямо на стендах экспонентов — закупщик приходит к вам по персональному маршруту. Уходить со стенда не нужно." },
         { q: "Как я узнаю, кто и когда придёт?", a: "Платформа Сейл Трекер пришлёт примерное время визита и профиль участника. За ~15 минут до встречи мы дополнительно позвоним." },
         { q: "Что такое протокол встречи и суммы закупок?", a: "Итоги каждой встречи фиксируются на платформе Сейл Трекер: о чём договорились и на какие суммы закупок вышли. Это основа для предварительного договора." },
-        { q: "Остались вопросы — к кому обращаться?", a: "К кураторам программы «Контракт Экспо» (КВК «Империя Форум»). Контакты — в разделе «Поддержка» ниже." }
+        { q: "Остались вопросы — к кому обращаться?", a: "К команде программы «Контракт Экспо» (КВК «Империя Форум»). Контакты — в разделе «Контакты» ниже." }
       ]
     },
     reviews: {
@@ -155,19 +155,20 @@ window.I18N = {
       ]
     },
     contacts: {
-      eyebrow: "Поддержка", title: "Команда программы ответит на ваши вопросы",
-      lead: "Не нашли ответ на сайте? Кураторы программы «Контракт Экспо» помогут разобраться и подготовиться к участию — и экспоненту, и закупщику. На связи по телефону и в Telegram.",
+      eyebrow: "Контакты", title: "Свяжитесь с командой программы",
+      lead: "Остались вопросы? Команда программы «Контракт Экспо» поможет разобраться и подготовиться к участию — и экспоненту, и закупщику. На связи по телефону и в Telegram.",
       people: [
         { name: "Марина Савельева", role: "Ивент-директор", org: "Контракт Экспо · Империя Форум", phone: "+7 911 000 8974", telegram: "@MarinaImperia" },
-        { name: "Ирина Солдатенкова", role: "Менеджер по работе с закупщиками", org: "Контракт Экспо · Империя Форум", phone: "+7 ___ ___-__-__" },
-        { name: "Катерина Антонова", role: "Менеджер по работе с закупщиками", org: "Контракт Экспо · Империя Форум", phone: "+7 ___ ___-__-__" }
+        { name: "Ирина Солдатенкова", role: "Менеджер по работе с закупщиками", org: "Контракт Экспо · Империя Форум", phone: "+7 981 201 1586", telegram: "@IrinaSol12" },
+        { name: "Екатерина Антонова", role: "Менеджер по работе с закупщиками", org: "Контракт Экспо · Империя Форум", phone: "+7 981 803 1704", telegram: "@Antonova_1704" }
       ],
-      cta: "Связаться с куратором"
+      cta: "Связаться с командой"
     },
     footer: {
       tagline: "«Контракт Экспо» — специальная байерская программа выставки «Агропродмаш 2026»: переговоры закупщиков и экспонентов прямо на стендах, по технологии Центра Закупок Сетей и на платформе Сейл Трекер.",
       col1: "Организатор программы «Контракт Экспо»", col1items: ["КВК «Империя Форум»"],
       col2: "Организатор выставки", col2items: ["АО «Экспоцентр»"],
+      col3: "Лицензия платформы", col3items: ["ООО «Сейл Трекер»"],
       rights: "© 2026 Контракт Экспо. Все права защищены.",
       place: "Москва · Россия"
     }
@@ -177,25 +178,25 @@ window.I18N = {
   zh: {
     meta: { title: "Contract Expo — 「Agroprodmash 2026」展会采购商与参展商洽谈计划，莫斯科" },
     langName: "中文",
-    nav: { about: "关于项目", audience: "面向人群", how: "如何进行", materials: "资料", faq: "常见问题", contacts: "支持", cta: "报名参加" },
+    nav: { about: "关于项目", audience: "面向人群", how: "如何进行", faq: "常见问题", contacts: "联系方式", cta: "报名参加" },
     hero: {
       badge1: "Agroprodmash 2026 · 莫斯科", badge2: "展台上的 B2B 洽谈",
       title: "Contract", titleAccent: "Expo",
       decoder: "面向「Agroprodmash 2026」展会观众与参展商的采购商专项计划",
-      slogan: "行业战略采购商直接在参展商展台上进行高效洽谈 —— 采用连锁采购中心技术，并通过 SaleTracker 平台记录会面纪要与采购金额。",
+      slogan: "行业战略采购商直接在参展商展台上进行高效洽谈 —— 采用连锁采购中心技术，配合 SaleTracker 平台。",
       dateLabel: "计划日期", dateVal: "2026 年 9 月 29–30 日",
       placeLabel: "地点", placeVal: "莫斯科克罗库斯世博中心",
       formatLabel: "形式", formatVal: "展台上洽谈",
       roleLabel: "我的参与身份：", roleSupplier: "参展商", roleBuyer: "采购商",
-      hintSupplier: "对口的行业战略采购商来到您的展台。按您的品类匹配、在展台上洽谈，并通过 SaleTracker 平台记录纪要与采购金额。",
-      hintBuyer: "沿所需品类展台的个性化路线：与参展商高效洽谈，每次会面的纪要与采购金额记录在 SaleTracker 平台。",
+      hintSupplier: "洽谈将直接在您的展台上与行业战略采购方进行。您将获得个人后台，内含会面日程与最终纪要。",
+      hintBuyer: "您将获得沿所需展台与展会板块的个性化路线，并有主办方的专家向导陪同。您将获得个人后台，内含会面日程与最终纪要。",
       cta: "参与流程", cta2: "联系项目专员"
     },
     facts: { items: [
       { num: "9.29–30", label: "Agroprodmash 2026 · 莫斯科克罗库斯世博中心" },
-      { num: "在展台", label: "直接在参展商展台洽谈" },
-      { num: "精准匹配", label: "按所需品类安排会面" },
-      { num: "SaleTracker", label: "会面纪要与采购金额" }
+      { num: "在展台", label: "所有会面都在参展商展台进行，如同在真实企业" },
+      { num: "精准匹配", label: "「Contract Expo」的核心 —— 独特的对口公司与方向匹配系统" },
+      { num: "SaleTracker", label: "所有结果、联系方式与报价都在每位参与者的个人后台" }
     ]},
     about: {
       eyebrow: "关于项目",
@@ -214,12 +215,12 @@ window.I18N = {
     results: {
       eyebrow: "成效数据",
       title: "已在带来合同的模式",
-      lead: "该技术由「Imperia Forum」会展公司举办。平台近几季的累计成果：",
+      lead: "「Contract Expo」项目主办方 —— 「Imperia Forum」会展公司，深耕商务对接行业 25 年以上，处于领先地位。近几季在各类商务活动上的累计成果：",
       items: [
-        { num: "3 500+", label: "模式各场次的洽谈" },
-        { num: "2 800+", label: "已签署合同" },
-        { num: "60%+", label: "洽谈 → 初步合同" },
-        { num: "200+", label: "品类采购商" }
+        { num: "35 000", label: "各场次的洽谈" },
+        { num: "30 000", label: "初步合同" },
+        { num: "60–80%", label: "洽谈转化为合同" },
+        { num: "2 000", label: "采购商数据库" }
       ],
       note: "该模式在俄罗斯及独联体国家的 20+ 个行业领域中运作。"
     },
@@ -267,7 +268,7 @@ window.I18N = {
       steps: [
         { n: "01", title: "注册与个人后台", text: "参展商与采购商均在 SaleTracker 平台注册并开通个人后台 —— 回答几个关于公司与产品的简短问题。" },
         { n: "02", title: "资料与匹配", text: "参展商填写资料与商业报价；采购商指定所需品类。系统按具体产品匹配相关配对。" },
-        { n: "03", title: "路线与时间", text: "采购商获得展台个性化路线，参展商获得日程：何人何时到访（例如：「12:15 —— 肉类加工厂厂长，关注肉类加工技术」）。双方确认会面。" },
+        { n: "03", title: "洽谈日程", text: "系统按各方需求自动生成洽谈日程：采购商获得展台个性化路线，参展商获得来访日程（何人何时到访）。双方确认会面。" },
         { n: "04", title: "洽谈与纪要", text: "洽谈在参展商展台进行。由有准备的员工或负责人本人主谈。结果记录在 SaleTracker：会面纪要与采购金额。" }
       ],
       video: {
@@ -303,7 +304,7 @@ window.I18N = {
         { q: "洽谈在哪里进行？", a: "就在参展商展台 —— 采购商按个性化路线来到您这里，无需离开展位。" },
         { q: "我如何得知何人何时到访？", a: "SaleTracker 平台会发送大致到访时间与参与者概况。会面前约 15 分钟我们还会致电。" },
         { q: "什么是会面纪要与采购金额？", a: "每次会面的结果记录在 SaleTracker 平台：达成了什么、涉及多少采购金额。这是初步合同的基础。" },
-        { q: "还有疑问 —— 找谁？", a: "咨询「Contract Expo」项目专员（「Imperia Forum」会展公司）。联系方式见下方「支持」板块。" }
+        { q: "还有疑问 —— 找谁？", a: "咨询「Contract Expo」项目团队（「Imperia Forum」会展公司）。见下方「联系方式」板块。" }
       ]
     },
     reviews: {
@@ -317,19 +318,20 @@ window.I18N = {
       ]
     },
     contacts: {
-      eyebrow: "支持", title: "项目团队为您解答",
-      lead: "在网站上没找到答案？「Contract Expo」项目专员帮助参展商与采购商弄清并准备参与 —— 电话与 Telegram 随时联系。",
+      eyebrow: "联系方式", title: "联系项目团队",
+      lead: "还有疑问？「Contract Expo」团队帮助参展商与采购商弄清并准备参与 —— 电话与 Telegram 随时联系。",
       people: [
         { name: "Marina Saveleva（玛丽娜·萨韦利耶娃）", role: "活动总监", org: "Contract Expo · Imperia Forum", phone: "+7 911 000 8974", telegram: "@MarinaImperia" },
-        { name: "Irina Soldatenkova（伊琳娜·索尔达坚科娃）", role: "采购商关系经理", org: "Contract Expo · Imperia Forum", phone: "+7 ___ ___-__-__" },
-        { name: "Katerina Antonova（叶卡捷琳娜·安东诺娃）", role: "采购商关系经理", org: "Contract Expo · Imperia Forum", phone: "+7 ___ ___-__-__" }
+        { name: "Irina Soldatenkova（伊琳娜·索尔达坚科娃）", role: "采购商关系经理", org: "Contract Expo · Imperia Forum", phone: "+7 981 201 1586", telegram: "@IrinaSol12" },
+        { name: "Ekaterina Antonova（叶卡捷琳娜·安东诺娃）", role: "采购商关系经理", org: "Contract Expo · Imperia Forum", phone: "+7 981 803 1704", telegram: "@Antonova_1704" }
       ],
-      cta: "联系项目专员"
+      cta: "联系团队"
     },
     footer: {
       tagline: "「Contract Expo」—— 「Agroprodmash 2026」展会采购商专项计划：采购商与参展商直接在展台上洽谈，采用连锁采购中心技术并通过 SaleTracker 平台记录。",
       col1: "「Contract Expo」项目主办方", col1items: ["Imperia Forum 会展公司"],
       col2: "展会主办方", col2items: ["Expocentre 股份公司"],
+      col3: "平台授权方", col3items: ["Sale Tracker 有限责任公司"],
       rights: "© 2026 Contract Expo。版权所有。",
       place: "莫斯科 · 俄罗斯"
     }
@@ -339,25 +341,25 @@ window.I18N = {
   en: {
     meta: { title: "Contract Expo — a buyer–exhibitor negotiation program at Agroprodmash 2026, Moscow" },
     langName: "English",
-    nav: { about: "About", audience: "Who it's for", how: "How it works", materials: "Materials", faq: "FAQ", contacts: "Support", cta: "Take part" },
+    nav: { about: "About", audience: "Who it's for", how: "How it works", faq: "FAQ", contacts: "Contacts", cta: "Take part" },
     hero: {
       badge1: "Agroprodmash 2026 · Moscow", badge2: "B2B talks at the stands",
       title: "Contract", titleAccent: "Expo",
       decoder: "A dedicated buyer program for visitors and exhibitors of Agroprodmash 2026",
-      slogan: "The industry's strategic buyers hold effective negotiations with exhibitors right at their stands — using the Networks Purchasing Center technology and the SaleTracker platform, where the meeting minutes and purchase amounts are recorded.",
+      slogan: "The industry's strategic buyers hold effective negotiations with exhibitors right at their stands — using the Networks Purchasing Center technology with the SaleTracker platform.",
       dateLabel: "Program dates", dateVal: "29–30 September 2026",
       placeLabel: "Venue", placeVal: "Crocus Expo, Moscow",
       formatLabel: "Format", formatVal: "Negotiations at the stands",
       roleLabel: "I'm taking part as:", roleSupplier: "Exhibitor", roleBuyer: "Buyer",
-      hintSupplier: "Relevant strategic buyers come to your stand. Category matchmaking, negotiations right at the stand, and minutes and purchase amounts recorded on the SaleTracker platform.",
-      hintBuyer: "A personal route across the stands in your categories: effective negotiations with exhibitors and minutes of every meeting with purchase amounts on the SaleTracker platform.",
+      hintSupplier: "Negotiations with the industry's strategic buyers are arranged right at your stand. You get a personal account with the meeting schedule and final minutes.",
+      hintBuyer: "You get a personal route across the stands and exhibition sections you need, accompanied by an expert guide from the organizers. You get a personal account with the meeting schedule and final minutes.",
       cta: "How participation works", cta2: "Contact your curator"
     },
     facts: { items: [
       { num: "29–30 Sep", label: "Agroprodmash 2026 · Crocus Expo, Moscow" },
-      { num: "At the stands", label: "Negotiations right at the exhibitors'" },
-      { num: "Matchmaking", label: "Meetings in the right product category" },
-      { num: "SaleTracker", label: "Meeting minutes and purchase amounts" }
+      { num: "At the stands", label: "Every meeting takes place at the exhibitors' stands, as at a real facility" },
+      { num: "Matchmaking", label: "The core of Contract Expo — a unique system that matches the companies and areas you need" },
+      { num: "SaleTracker", label: "All outcomes, contacts and offers — in every participant's personal account" }
     ]},
     about: {
       eyebrow: "About the program",
@@ -376,12 +378,12 @@ window.I18N = {
     results: {
       eyebrow: "Proven results",
       title: "A format that already delivers contracts",
-      lead: "The technology is run by the Imperia Forum event company. Aggregate format results over recent seasons:",
+      lead: "Contract Expo is run by the Imperia Forum event company — a networking-industry leader for over 25 years. Aggregate results at business events over recent seasons:",
       items: [
-        { num: "3,500+", label: "negotiations across format editions" },
-        { num: "2,800+", label: "contracts signed" },
-        { num: "60%+", label: "meetings → preliminary contract" },
-        { num: "200+", label: "category buyers" }
+        { num: "35,000", label: "negotiations across editions" },
+        { num: "30,000", label: "preliminary contracts" },
+        { num: "60–80%", label: "of meetings turned into contracts" },
+        { num: "2,000", label: "buyers in the database" }
       ],
       note: "The format works across 20+ business sectors in Russia and the CIS."
     },
@@ -429,7 +431,7 @@ window.I18N = {
       steps: [
         { n: "01", title: "Registration & personal account", text: "Both exhibitors and buyers register on the SaleTracker platform and open a personal account — answering a few short questions about the company and product." },
         { n: "02", title: "Profile & matching", text: "The exhibitor fills in a profile and a commercial offer; the buyer specifies the categories they need. The system matches relevant pairs by specific product." },
-        { n: "03", title: "Route & timing", text: "The buyer gets a personal route across the stands; the exhibitor gets a schedule of who comes and when (e.g. \"12:15 — director of a meat plant, interested in meat-processing technologies\"). Both sides confirm the meeting." },
+        { n: "03", title: "Negotiation schedule", text: "A negotiation schedule is generated automatically, taking all needs into account: the buyer gets a personal route across the stands, the exhibitor a schedule of visits (who comes and when). Both sides confirm the meeting." },
         { n: "04", title: "Negotiations & minutes", text: "Negotiations take place at the exhibitor's stand. The talks are led by a prepared team member or the director in person. Outcomes are recorded on SaleTracker: meeting minutes and purchase amounts." }
       ],
       video: {
@@ -465,7 +467,7 @@ window.I18N = {
         { q: "Where do the negotiations take place?", a: "Right at the exhibitors' stands — the buyer comes to you along a personal route. No need to leave the stand." },
         { q: "How do I know who is coming and when?", a: "The SaleTracker platform sends the approximate visit time and the participant's profile. About 15 minutes before the meeting we also call." },
         { q: "What are the meeting minutes and purchase amounts?", a: "The outcome of each meeting is recorded on the SaleTracker platform: what was agreed and the purchase amounts reached. This is the basis for a preliminary contract." },
-        { q: "Still have questions — who do I contact?", a: "The Contract Expo program curators (Imperia Forum). Contacts are in the \"Support\" section below." }
+        { q: "Still have questions — who do I contact?", a: "The Contract Expo program team (Imperia Forum). Contacts are in the \"Contacts\" section below." }
       ]
     },
     reviews: {
@@ -479,19 +481,20 @@ window.I18N = {
       ]
     },
     contacts: {
-      eyebrow: "Support", title: "The program team will answer your questions",
-      lead: "Didn't find your answer on the site? The Contract Expo curators will help both exhibitors and buyers figure it out and prepare to take part — reachable by phone and Telegram.",
+      eyebrow: "Contacts", title: "Get in touch with the program team",
+      lead: "Still have questions? The Contract Expo team will help both exhibitors and buyers figure it out and prepare to take part — reachable by phone and Telegram.",
       people: [
         { name: "Marina Savelieva", role: "Event Director", org: "Contract Expo · Imperia Forum", phone: "+7 911 000 8974", telegram: "@MarinaImperia" },
-        { name: "Irina Soldatenkova", role: "Buyer Relations Manager", org: "Contract Expo · Imperia Forum", phone: "+7 ___ ___-__-__" },
-        { name: "Katerina Antonova", role: "Buyer Relations Manager", org: "Contract Expo · Imperia Forum", phone: "+7 ___ ___-__-__" }
+        { name: "Irina Soldatenkova", role: "Buyer Relations Manager", org: "Contract Expo · Imperia Forum", phone: "+7 981 201 1586", telegram: "@IrinaSol12" },
+        { name: "Ekaterina Antonova", role: "Buyer Relations Manager", org: "Contract Expo · Imperia Forum", phone: "+7 981 803 1704", telegram: "@Antonova_1704" }
       ],
-      cta: "Contact your curator"
+      cta: "Contact the team"
     },
     footer: {
       tagline: "Contract Expo — a dedicated buyer program of the Agroprodmash 2026 exhibition: buyers and exhibitors negotiate right at the stands, using the Networks Purchasing Center technology and the SaleTracker platform.",
       col1: "Contract Expo program organizer", col1items: ["Imperia Forum event company"],
       col2: "Exhibition organizer", col2items: ["Expocentre JSC"],
+      col3: "Platform license", col3items: ["Sale Tracker LLC"],
       rights: "© 2026 Contract Expo. All rights reserved.",
       place: "Moscow · Russia"
     }
