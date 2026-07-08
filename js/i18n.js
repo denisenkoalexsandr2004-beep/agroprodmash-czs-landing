@@ -25,8 +25,8 @@ window.I18N = {
       placeLabel: "Место", placeVal: "МВЦ «Крокус Экспо», Москва",
       formatLabel: "Формат", formatVal: "Переговоры на стендах",
       roleLabel: "Я участвую как:", roleSupplier: "Экспонент", roleBuyer: "Закупщик",
-      hintSupplier: "Прямо на вашем стенде будут организованы переговоры со стратегическими заказчиками отрасли. Вам будет доступен личный кабинет с расписанием встреч и итоговыми протоколами.",
-      hintBuyer: "Вы получите персональный маршрут по нужным стендам и направлениям выставки в сопровождении эксперта-гида от организаторов. Вам будет доступен личный кабинет с расписанием встреч и итоговыми протоколами.",
+      hintSupplier: "К вам приходят подготовленные закупщики под вашу продукцию — переговоры ведёте, не отходя от экспозиции.",
+      hintBuyer: "Обходите не всю выставку, а только нужные стенды по личному маршруту — с бизнес-гидом, который экономит ваше время.",
       cta: "Как проходит участие", cta2: "Связаться с куратором"
     },
     facts: { items: [
@@ -38,9 +38,9 @@ window.I18N = {
     about: {
       eyebrow: "О программе",
       title: "Что такое «Контракт Экспо»",
-      p1: "<strong>«Контракт Экспо»</strong> — специальная байерская программа выставки «Агропродмаш 2026» для закупщиков и экспонентов. Стратегические закупщики отрасли проводят эффективные переговоры с экспонентами прямо на их стендах — по технологии <strong>Центра Закупок Сетей™</strong>.",
-      p2: "Переговоры идут не в отдельной зоне, а <strong>на стендах экспонентов</strong>: каждому закупщику формируется персональный маршрут по стендам-участникам, подобранным под его категории. Встречи и договорённости фиксируются на платформе <strong>Сейл Трекер</strong> — протокол встречи и суммы закупок.",
-      p3: "Экспонент получает поток профильных закупщиков к своему стенду, закупщик — весь нужный рынок в одном маршруте. По опыту формата более <strong>60% переговоров</strong> завершаются предварительным договором прямо на площадке.",
+      p1: "Обычная выставка — это тысячи стендов и надежда, что нужные люди пройдут мимо. <strong>«Контракт Экспо»</strong> убирает случайность: программа заранее сводит экспонентов с закупщиками, которым интересна именно их продукция.",
+      p2: "Механика простая: обе стороны заполняют профили, система подбирает пары по категориям и собирает график встреч. Каждый заранее знает, с кем и когда встретится — без холодных обходов и потерянного времени.",
+      p3: "Договорённости не теряются в суете: итоги и объёмы закупок сразу фиксируются в системе. По опыту формата более <strong>60% переговоров</strong> доходят до предварительного договора.",
       platform: {
         tag: "Платформа программы", title: "Платформа Сейл Трекер",
         desc: "И экспоненты, и закупщики работают на специальной B2B-платформе Сейл Трекер — она разработана под Центр Закупок Сетей и аккредитована в Сколково. У каждого свой личный кабинет.",
@@ -120,12 +120,12 @@ window.I18N = {
       ],
       video: {
         eyebrow: "Видео", title: "Как проходит «Контракт Экспо»",
-        note: "Коротко о формате: стратегические закупщики идут по персональному маршруту и проводят переговоры с экспонентами прямо на их стендах, а договорённости фиксируются на платформе Сейл Трекер.",
+        note: "Две минуты о том, как это выглядит вживую — атмосфера, встречи и результат.",
         phLabel: "Видео скоро"
       },
       hall: {
         title: "Маршрут закупщика по стендам",
-        desc: "«Контракт Экспо» проходит не в отдельной зоне, а прямо на стендах экспонентов. Каждому закупщику формируется персональный маршрут по стендам-участникам (зелёные): в назначенное время он подходит к стенду. Синие стенды — экспоненты вне программы.",
+        desc: "Так выглядит маршрут закупщика: жёлтая точка — старт, зелёные стенды — участники программы, синие — вне её. По расписанию он переходит от стенда к стенду, к каждому — в своё время.",
         legendBuyer: "Закупщик — старт маршрута",
         legendGreen: "Стенд — участник программы",
         legendBlue: "Экспонент вне программы"
@@ -175,7 +175,7 @@ window.I18N = {
       cta: "Связаться с командой"
     },
     footer: {
-      tagline: "«Контракт Экспо» — специальная байерская программа выставки «Агропродмаш 2026»: переговоры закупщиков и экспонентов прямо на стендах, по технологии Центра Закупок Сетей и на платформе Сейл Трекер.",
+      tagline: "Деловая программа выставки «Агропродмаш 2026» — прямые встречи закупщиков и экспонентов.",
       col1: "Организатор программы «Контракт Экспо»", col1items: ["КВК «Империя Форум»"],
       col2: "Организатор выставки", col2items: ["АО «Экспоцентр»"],
       col3: "Лицензия платформы", col3items: ["ООО «Сейл Трекер»"],
@@ -198,8 +198,8 @@ window.I18N = {
       placeLabel: "地点", placeVal: "莫斯科克罗库斯世博中心",
       formatLabel: "形式", formatVal: "展台上洽谈",
       roleLabel: "我的参与身份：", roleSupplier: "参展商", roleBuyer: "采购商",
-      hintSupplier: "洽谈将直接在您的展台上与行业战略采购方进行。您将获得个人后台，内含会面日程与最终纪要。",
-      hintBuyer: "您将获得沿所需展台与展会板块的个性化路线，并有主办方的专家向导陪同。您将获得个人后台，内含会面日程与最终纪要。",
+      hintSupplier: "对口的采购商主动来到您的展台 —— 洽谈无需离开展位。",
+      hintBuyer: "不必逛遍整个展会，只按个人路线走需要的展台 —— 还有商务向导为您省时。",
       cta: "参与流程", cta2: "联系项目专员"
     },
     facts: { items: [
@@ -211,9 +211,9 @@ window.I18N = {
     about: {
       eyebrow: "关于项目",
       title: "什么是「Contract Expo」",
-      p1: "<strong>「Contract Expo」</strong> 是「Agroprodmash 2026」展会面向采购商与参展商的采购商专项计划。行业战略采购商直接在参展商展台上进行高效洽谈 —— 采用 <strong>连锁采购中心™</strong> 技术。",
-      p2: "洽谈不在单独区域，而是 <strong>在参展商展台上</strong> 进行：系统为每位采购商生成沿项目参与展台的个性化路线，按其品类匹配。会面与约定通过 <strong>SaleTracker</strong> 平台记录 —— 会面纪要与采购金额。",
-      p3: "参展商获得对口采购商流向展台，采购商在一条路线上遍历所需市场。据经验，超过 <strong>60% 的洽谈</strong>当场以初步合同结束。",
+      p1: "普通展会是成千上万个展台，只能寄希望于对的人正好路过。<strong>「Contract Expo」</strong> 消除了这种偶然：项目提前把参展商与真正对其产品感兴趣的采购商对接起来。",
+      p2: "机制很简单：双方填写资料，系统按品类匹配配对并生成会面日程。每个人都提前知道与谁、何时见面 —— 无需盲目走访、不浪费时间。",
+      p3: "约定不会淹没在展会的喧嚣中：结果与采购金额即时记录在系统里。据经验，超过 <strong>60% 的洽谈</strong>进入初步合同阶段。",
       platform: {
         tag: "项目平台", title: "SaleTracker 平台",
         desc: "参展商与采购商都在专用 B2B 平台 SaleTracker 上进行 —— 该平台为连锁采购中心开发，并获斯科尔科沃认证。每人拥有个人后台。",
@@ -293,12 +293,12 @@ window.I18N = {
       ],
       video: {
         eyebrow: "视频", title: "「Contract Expo」如何进行",
-        note: "简要了解形式：战略采购商沿个性化路线，直接在参展商展台上与参展商洽谈，约定通过 SaleTracker 平台记录。",
+        note: "两分钟看看现场实况 —— 氛围、会面与成果。",
         phLabel: "视频即将上线"
       },
       hall: {
         title: "采购商的展台参观路线",
-        desc: "「Contract Expo」不在单独区域，而是直接在参展商展台上进行。系统为每位采购商生成沿项目参与展台（绿色）的个性化路线：在约定时间前往展台。蓝色展台为项目外参展商。",
+        desc: "这是采购商的路线示意：黄点为起点，绿色展台为项目参与方，蓝色为项目外。他按日程从一个展台走到下一个，各有各的时间。",
         legendBuyer: "采购商 —— 路线起点",
         legendGreen: "展台 —— 项目参与方",
         legendBlue: "项目外参展商"
@@ -348,7 +348,7 @@ window.I18N = {
       cta: "联系团队"
     },
     footer: {
-      tagline: "「Contract Expo」—— 「Agroprodmash 2026」展会采购商专项计划：采购商与参展商直接在展台上洽谈，采用连锁采购中心技术并通过 SaleTracker 平台记录。",
+      tagline: "「Agroprodmash 2026」展会商务项目 —— 采购商与参展商的直接会面。",
       col1: "「Contract Expo」项目主办方", col1items: ["Imperia Forum 会展公司"],
       col2: "展会主办方", col2items: ["Expocentre 股份公司"],
       col3: "平台授权方", col3items: ["Sale Tracker 有限责任公司"],
@@ -371,8 +371,8 @@ window.I18N = {
       placeLabel: "Venue", placeVal: "Crocus Expo, Moscow",
       formatLabel: "Format", formatVal: "Negotiations at the stands",
       roleLabel: "I'm taking part as:", roleSupplier: "Exhibitor", roleBuyer: "Buyer",
-      hintSupplier: "Negotiations with the industry's strategic buyers are arranged right at your stand. You get a personal account with the meeting schedule and final minutes.",
-      hintBuyer: "You get a personal route across the stands and exhibition sections you need, accompanied by an expert guide from the organizers. You get a personal account with the meeting schedule and final minutes.",
+      hintSupplier: "Qualified buyers for your products come to you — you negotiate without leaving your stand.",
+      hintBuyer: "Skip the whole show floor and visit only the stands you need, along a personal route — with a business guide who saves your time.",
       cta: "How participation works", cta2: "Contact your curator"
     },
     facts: { items: [
@@ -384,9 +384,9 @@ window.I18N = {
     about: {
       eyebrow: "About the program",
       title: "What Contract Expo is",
-      p1: "<strong>Contract Expo</strong> is a dedicated buyer program of the Agroprodmash 2026 exhibition, for buyers and exhibitors. The industry's strategic buyers hold effective negotiations with exhibitors right at their stands — using the <strong>Networks Purchasing Center™</strong> technology.",
-      p2: "Negotiations don't happen in a separate zone — they take place <strong>at the exhibitors' stands</strong>: each buyer gets a personal route across the participating stands, matched to their categories. Meetings and agreements are recorded on the <strong>SaleTracker</strong> platform — meeting minutes and purchase amounts.",
-      p3: "The exhibitor gets a flow of relevant buyers to their stand; the buyer gets the whole relevant market on a single route. Based on the format's experience, over <strong>60% of negotiations</strong> end with a preliminary contract right on site.",
+      p1: "A regular exhibition is thousands of stands and the hope that the right people walk past. <strong>Contract Expo</strong> removes the chance: the program connects exhibitors in advance with buyers who are genuinely interested in their products.",
+      p2: "The mechanics are simple: both sides fill in a profile, the system matches pairs by category and builds a meeting schedule. Everyone knows in advance who they'll meet and when — no cold walking, no wasted time.",
+      p3: "Agreements don't get lost in the show-floor rush: outcomes and purchase amounts are recorded instantly. Based on the format's experience, over <strong>60% of negotiations</strong> reach a preliminary contract.",
       platform: {
         tag: "Program platform", title: "The SaleTracker platform",
         desc: "Both exhibitors and buyers work on the dedicated B2B platform SaleTracker — built for the Networks Purchasing Center and accredited by Skolkovo. Everyone has a personal account.",
@@ -466,12 +466,12 @@ window.I18N = {
       ],
       video: {
         eyebrow: "Video", title: "How Contract Expo works",
-        note: "A quick look at the format: strategic buyers follow a personal route and negotiate with exhibitors right at their stands, with agreements recorded on the SaleTracker platform.",
+        note: "Two minutes on what it looks like live — the atmosphere, the meetings and the result.",
         phLabel: "Video coming soon"
       },
       hall: {
         title: "The buyer's route across the stands",
-        desc: "Contract Expo doesn't happen in a separate zone — it takes place right at the exhibitors' stands. Each buyer gets a personal route across the participating stands (green): at the appointed time they come up to the stand. Blue stands are exhibitors outside the program.",
+        desc: "This is the buyer's route: the yellow dot is the start, green stands are program participants, blue ones are outside it. They move from stand to stand on schedule, reaching each at its own time.",
         legendBuyer: "Buyer — start of the route",
         legendGreen: "Stand — program participant",
         legendBlue: "Exhibitor outside the program"
@@ -521,7 +521,7 @@ window.I18N = {
       cta: "Contact the team"
     },
     footer: {
-      tagline: "Contract Expo — a dedicated buyer program of the Agroprodmash 2026 exhibition: buyers and exhibitors negotiate right at the stands, using the Networks Purchasing Center technology and the SaleTracker platform.",
+      tagline: "A business program of the Agroprodmash 2026 exhibition — direct meetings between buyers and exhibitors.",
       col1: "Contract Expo program organizer", col1items: ["Imperia Forum event company"],
       col2: "Exhibition organizer", col2items: ["Expocentre JSC"],
       col3: "Platform license", col3items: ["Sale Tracker LLC"],
