@@ -119,8 +119,8 @@ window.I18N = {
         { n: "04", title: "Переговоры и протокол", text: "Переговоры проходят на стенде экспонента. Кто ведёт встречу — подготовленный сотрудник или сам руководитель. Итоги фиксируются на Сейл Трекер: протокол встречи и суммы закупок." }
       ],
       video: {
-        eyebrow: "Инструктаж", title: "Как правильно говорить с закупщиком",
-        note: "Видео-инструктаж для экспонентов. [Скоро — материал готовится.]",
+        eyebrow: "Видео", title: "Как проходит «Контракт Экспо»",
+        note: "Коротко о формате: стратегические закупщики идут по персональному маршруту и проводят переговоры с экспонентами прямо на их стендах, а договорённости фиксируются на платформе Сейл Трекер.",
         phLabel: "Видео скоро"
       },
       hall: {
@@ -292,8 +292,8 @@ window.I18N = {
         { n: "04", title: "洽谈与纪要", text: "洽谈在参展商展台进行。由有准备的员工或负责人本人主谈。结果记录在 SaleTracker：会面纪要与采购金额。" }
       ],
       video: {
-        eyebrow: "指导", title: "如何正确与采购商交谈",
-        note: "面向参展商的视频指导。[即将上线 —— 材料准备中。]",
+        eyebrow: "视频", title: "「Contract Expo」如何进行",
+        note: "简要了解形式：战略采购商沿个性化路线，直接在参展商展台上与参展商洽谈，约定通过 SaleTracker 平台记录。",
         phLabel: "视频即将上线"
       },
       hall: {
@@ -465,8 +465,8 @@ window.I18N = {
         { n: "04", title: "Negotiations & minutes", text: "Negotiations take place at the exhibitor's stand. The talks are led by a prepared team member or the director in person. Outcomes are recorded on SaleTracker: meeting minutes and purchase amounts." }
       ],
       video: {
-        eyebrow: "Coaching", title: "How to talk to a buyer the right way",
-        note: "A video briefing for exhibitors. [Coming soon — in preparation.]",
+        eyebrow: "Video", title: "How Contract Expo works",
+        note: "A quick look at the format: strategic buyers follow a personal route and negotiate with exhibitors right at their stands, with agreements recorded on the SaleTracker platform.",
         phLabel: "Video coming soon"
       },
       hall: {
