@@ -129,6 +129,11 @@ window.I18N = {
         legendBuyer: "Закупщик — старт маршрута",
         legendGreen: "Стенд — участник программы",
         legendBlue: "Экспонент вне программы"
+      },
+      gallery: {
+        eyebrow: "Как это выглядит", title: "Атмосфера переговоров",
+        note: "Фотографии с прошлых деловых встреч формата.",
+        phLabel: "Фото"
       }
     },
     materials: {
@@ -302,6 +307,11 @@ window.I18N = {
         legendBuyer: "采购商 —— 路线起点",
         legendGreen: "展台 —— 项目参与方",
         legendBlue: "项目外参展商"
+      },
+      gallery: {
+        eyebrow: "现场一览", title: "洽谈氛围",
+        note: "往届同类商务活动的照片。",
+        phLabel: "照片"
       }
     },
     materials: {
@@ -475,6 +485,11 @@ window.I18N = {
         legendBuyer: "Buyer — start of the route",
         legendGreen: "Stand — program participant",
         legendBlue: "Exhibitor outside the program"
+      },
+      gallery: {
+        eyebrow: "What it looks like", title: "The atmosphere of negotiations",
+        note: "Photos from past business meetings of the format.",
+        phLabel: "Photo"
       }
     },
     materials: {
