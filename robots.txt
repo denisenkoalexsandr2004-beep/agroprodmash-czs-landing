@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://agroprodmash.centerzakupok.online/sitemap.xml
+Sitemap: https://centerzakupok.online/agroprodmash/sitemap.xml
